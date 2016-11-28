@@ -25,17 +25,14 @@ this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+th
 
     $scope.change_src_img_1 = function ($index) {
     	$scope.model_img_1 = data[$index].model_small_img
-    	console.log($index);
     };
 
     $scope.change_src_img_2 = function ($index) {
     	$scope.model_img_2 = data[$index].model_small_img
-    	console.log($index);
     };
 
     $scope.change_src_img_3 = function ($index) {
     	$scope.model_img_3 = data[$index].model_small_img
-    	console.log($index);
     };
 
   }
@@ -43,25 +40,25 @@ this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+th
 
   var data = [{
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/339933"
+	"model_small_img": "https://placehold.it/80x60/339933"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/ffcc00"
+	"model_small_img": "https://placehold.it/80x60/ffcc00"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/ff0066"
+	"model_small_img": "https://placehold.it/80x60/ff0066"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/669900"
+	"model_small_img": "https://placehold.it/80x60/669900"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/339933"
+	"model_small_img": "https://placehold.it/80x60/339933"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/0000ff"
+	"model_small_img": "https://placehold.it/80x60/0000ff"
 }, {
 	"modelId": 1,
-	"model_small_img": "http://placehold.it/80x60/00ffff"
+	"model_small_img": "https://placehold.it/80x60/00ffff"
 }];
 
 
