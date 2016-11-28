@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Traingle4it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Traingle4it-app</title>
+
+        <link rel="icon" href="favicon.ico">
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script> -->
+
+
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/app.js" ></script>
+
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body ng-controller="MainCtrl">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="right-side col-md-7 borderInspect">
+                    <img src="http://placehold.it/800x600/000000">
+                    <div class="model-container-1">
+                        <h4>Imaged 1</h4>
+                        <img ng-src="{{model_img_1}}" alt="" class="modle-img-1">
+                    </div>
+                    <div class="model-container-2">
+                        <h4>Imaged 2</h4>
+                        <img ng-src="{{model_img_2}}" alt="" class="modle-img-1">
+                    </div>
+                    <div class="model-container-3">
+                        <h4>Imaged 3</h4>
+                        <img ng-src="{{model_img_3}}" alt="" class="modle-img-1">
+                    </div>
+                </div>
+
+                <div class="left-side col-md-1 col-md-offset-2 borderInspect">
+                    <h4>Imaged 1</h4>
+                    <div class="margin-bottom" ng-repeat="model in data">
+                        <img ng-src="{{model.model_small_img}}" alt="" ng-click="change_src_img_1($index);">
+                    </div>
+                </div>
+
+                <div class="left-side col-md-1 borderInspect">
+                    <h4>Imaged 2</h4>
+                    <div class="margin-bottom" ng-repeat="model in data">
+                        <img ng-src="{{model.model_small_img}}" alt="" ng-click="change_src_img_2($index);">
+                    </div>
+                </div>
+
+                <div class="left-side col-md-1 borderInspect">
+                    <h4>Imaged 3</h4>
+                    <div class="margin-bottom" ng-repeat="model in data">
+                        <img ng-src="{{model.model_small_img}}" alt="" ng-click="change_src_img_3($index);">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+
+        
+
+
+    </body>
+
+</html>

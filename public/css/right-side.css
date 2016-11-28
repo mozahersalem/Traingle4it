@@ -1,0 +1,26 @@
+/* line 1, ../sass/right-side.scss */
+.right-side {
+  height: 100%;
+}
+/* line 4, ../sass/right-side.scss */
+.right-side h4 {
+  color: white;
+}
+/* line 8, ../sass/right-side.scss */
+.right-side .model-container-1 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+/* line 13, ../sass/right-side.scss */
+.right-side .model-container-2 {
+  position: absolute;
+  top: 350px;
+  left: 350px;
+}
+/* line 18, ../sass/right-side.scss */
+.right-side .model-container-3 {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
